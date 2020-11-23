@@ -1,0 +1,35 @@
+<head>
+	<title>Meme App</title>
+	<link rel="stylesheet" href="style.css">
+	</link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="text-center">
+			<div class="row justify-content-md-center align-items-center">
+				<div class="col col-lg-2 align-self-center">
+					<button id="prev-image-id" type="button" class="btn btn-info">Prev</button>
+				</div>
+				<div class="col-12 col-md-auto align-self-center">
+					<div class="card">
+						<img id="meme-image-id" class="card-img-top meme-block" src="" alt="Card image cap">
+						<div class="card-block">
+							<p id="meme-title-id" class="card-text">UPDATE THE TITLE HERE!!!</p>
+							<p id="meme-likes-id" class="card-text">UPDATE THE LIKE NUMBRE HERE</p>
+							<div>
+								<button id="like-button-id" type="button" class="btn btn-success">Like</button>
+								<button id="dislike-button-id" type="button" class="btn btn-danger">Dislike</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col col-lg-2 align-self-center">
+					<button id="next-image-id" type="button" class="btn btn-info">Next</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
